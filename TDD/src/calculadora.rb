@@ -25,4 +25,11 @@ class Calculadora
     def potencia_ao_quadrado(a)
         a ** 2
     end
+    
+    def raiz_quadrada(a)
+        Math.sqrt(a)
+    rescue Math::DomainError
+        "Entrada inválida (raiz de um numero negativo náo existe)"
+    end
+
 end
