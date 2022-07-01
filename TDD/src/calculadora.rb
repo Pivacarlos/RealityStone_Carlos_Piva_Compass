@@ -18,5 +18,11 @@ class Calculadora
 
     def divisao(a, b)
         a / b
+    rescue ZeroDivisionError 
+        "Náo é possível dividir por zero"
+    end
+
+    def potencia_ao_quadrado(a)
+        a ** 2
     end
 end
