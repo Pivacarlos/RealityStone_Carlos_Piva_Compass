@@ -32,4 +32,20 @@ class Calculadora
         "Entrada inválida (raiz de um numero negativo náo existe)"
     end
 
+    def divisao_por_1(a)
+        a / 1
+    end
+    
+    def porcentagem(a, b)
+        a * b / 100
+    end
+########################################################################################
+##################################### CALCULADORA CIENTIFICA ###########################
+########################################################################################
+    def logaritmo_natural(a)
+        Math.log(a).round(8)
+    rescue Math::DomainError
+        "Entrada inválida (logaritmo de um numero negativo náo existe)"
+    end
 end
+
