@@ -60,7 +60,7 @@
 Copyright © 2022 [Carlos Eduardo Piva](https://github.com/PivaCarlos).<br />
 Copyright © 2022 [Compass](https://compass.uol/).<br /> 
 
-## 🎞️​ Creditos
+## 🎞️​ Créditos
 * Ajuda Código | Git | Github [Daniel Merib](https://github.com/ypek)
 * Ruby Koans [Challange](http://rubykoans.com/).<br />
 * Ruby Documentation [Documentação Ruby](https://www.ruby-lang.org/pt/documentation/).<br />
